@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.allofactivity.activities.MainActivity">
+
+    <Button
+        android:textStyle="bold"
+        android:text="库欧天气"
+        android:id="@+id/btn_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textStyle="bold"
+        android:text="仿QQ实现小程序"
+        android:id="@+id/btn_QQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:text="基于UDP协议的socket通信"
+        android:id="@+id/btn_socket_communication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:text="小说阅读器"
+        android:id="@+id/btn_novel_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:text="美图"
+        android:id="@+id/btn_make_pictures_beautiful"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:text="五笔查询"
+        android:id="@+id/btn_wubi_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:text="花瓣"
+        android:id="@+id/btn_flower_pictures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:text="Game 2048 AI版"
+        android:id="@+id/btn_game_2048"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textStyle="bold"
+        android:text="第三方登录"
+        android:id="@+id/btn_third_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textStyle="bold"
+        android:text="音视频制作"
+        android:id="@+id/btn_flash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textStyle="bold"
+        android:text="第三方支付"
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:text="PickerViewDemo"
+        android:id="@+id/btn_pickerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:text="Retrofit+OKHttp+Rxjava网络请求框架实战"
+        android:id="@+id/btn_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:text="篮球战术板APP"
+        android:id="@+id/btn_basketball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

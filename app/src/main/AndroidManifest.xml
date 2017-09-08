@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.allofactivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.com.example.administrator.allofactivity.atyweather.activity.AtyWeather" />
+        <activity android:name=".activities.com.example.administrator.allofactivity.qqaty.AtyQQ" />
+        <activity android:name=".activities.AtySocket" />
+        <activity android:name=".activities.AtyNovel" />
+        <activity android:name=".activities.AtyBeautifulpictures" />
+        <activity android:name=".activities.AtyWubi" />
+        <activity android:name=".activities.AtyFlower" />
+        <activity android:name=".activities.AtyGame" />
+        <activity android:name=".activities.com.example.administrator.allofactivity.qqaty.AtyGuide" />
+        <activity android:name=".activities.com.example.administrator.allofactivity.qqaty.AtyLoginOrRegister" />
+        <activity android:name=".activities.com.example.administrator.allofactivity.qqaty.AtyWelcome" />
+        <activity android:name=".activities.AtyFlash" />
+        <activity android:name=".activities.com.example.administrator.allofactivity.atypickerview.AtyPickerView" />
+        <activity android:name=".activities.com.example.administrator.allofactivity.atyinterenet.activity.AtyInternet" />
+        <activity android:name=".activities.AtyBasketball"></activity>
+    </application>
+
+</manifest>

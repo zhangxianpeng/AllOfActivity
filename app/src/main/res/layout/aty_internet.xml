@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.allofactivity.activities.com.example.administrator.allofactivity.atyinterenet.activity.AtyInternet">
+
+    <TextView
+        android:id="@+id/tv_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_getResponse" />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:text="点击进行网络请求并返回深圳2017-07-15的天气情况"
+        android:id="@+id/btn_getResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
